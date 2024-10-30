@@ -1,0 +1,35 @@
+.cf7_mollie_api_api_label{
+	font-family: Verdana, Arial, sans-serif;
+	display: inline-block;
+	padding: 5px 7px 5px 7px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+/* The alert message box */
+.cf7_mollie_api_alert {
+	padding: 20px;
+	border-style: solid;
+	border-width: 5px;
+	margin-bottom: 15px;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	height: 1em;
+}
+
+/* The close button */
+.cf7_mollie_api_closebtn {
+	margin-left: 15px;
+	font-weight: bold;
+	float: right;
+	font-size: 22px;
+	line-height: 20px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.cf7_mollie_api_closebtn:hover {
+	color: black;
+}

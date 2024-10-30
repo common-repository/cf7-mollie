@@ -1,0 +1,68 @@
+/*Maak de betalingstabel mooi*/
+.cf7-mollie-client-payments-overview-table, .cf7-mollie-payments-overview-table, .cf7-mollie-payments-table, .cf7-mollie-payments-head, .cf7-mollie-payments-row, th, td {
+	border: 1px solid black;
+	text-align: center !important;
+	padding: 0px 0px !important;
+}
+
+
+.cf7-mollie-payments-head, .cf7-mollie-payments-row-final {
+	background-color: #dddddd;
+}
+
+.cf7-mollie-payments-head > tr > th, .cf7-mollie-payments-foot{
+	font-weight: 900;
+}
+
+tr[class^="cf7-mollie-payments-row"]:nth-child(even){
+  background-color: #dddddd;
+}
+
+td:empty {
+    display: none;
+    border-style: none;
+}
+
+.cf7_mollie_amount, .cf7_mollie_startdate, .cf7_mollie_frequencytype, .cf7_mollie_frequency, .cf7_mollie_times {
+	width: 125px;
+}
+
+.cf7_mollie_description{
+	width: 350px;
+}
+
+.cf7_mollie_update_payment, .cf7_mollie_delete_payment{
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.cf7_mollie_amount, .cf7_mollie_startdate, .cf7_mollie_frequencytype, .cf7_mollie_frequency, .cf7_mollie_times, .cf7_mollie_interval, .cf7_mollie_order_id, .cf7_mollie_button, .cf7_mollie_signaturedate {
+	width: 125px;
+}
+
+.cf7_mollie_description, .cf7_mollie_name, .cf7_mollie_webhook{
+	width: 250px;
+}
+	
+.cf7_mollie_interval_type {
+	position: relative;
+	top: -3px;
+	min-height: 30px;
+	width: 120px;
+}
+
+#cf7-mollie-payments-table, #cf7-mollie-payments-overview-wrapper, #cf7-mollie-client-payments-overview-wrapper {
+	overflow-x: auto;
+	margin: 10px;
+	padding: 10px;
+	max-width: 98%;
+}
+
+#cf7-mollie-client-payments-overview-wrapper {
+	max-width: 500px;
+}
+
+#cf7-mollie-payments-table-title{
+	margin: 10px;
+}

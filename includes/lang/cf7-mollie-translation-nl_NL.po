@@ -1,0 +1,542 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: CF7 Mollie\n"
+"POT-Creation-Date: 2020-01-29 13:59+0100\n"
+"PO-Revision-Date: 2020-01-29 14:06+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-Basepath: ../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_n;_n:1,2\n"
+"X-Poedit-SearchPath-0: includes\n"
+"X-Poedit-SearchPath-1: cf7-mollie.php\n"
+
+#: cf7-mollie.php:58
+msgid "payment amount"
+msgstr "betalingsbedrag"
+
+#: cf7-mollie.php:59
+msgid "payment options"
+msgstr "betalingsopties"
+
+#: cf7-mollie.php:60
+msgid "iDeal bankchoice"
+msgstr "iDeal bankkeuze"
+
+#: includes/php/admin_menu.php:164
+msgid "Edit"
+msgstr "Bewerk"
+
+#: includes/php/admin_menu.php:165
+msgid "Delete"
+msgstr "Verwijder"
+
+#: includes/php/admin_menu.php:183 includes/php/table_shortcode.php:148
+msgid "Show payments"
+msgstr "Laat betalingen zien"
+
+#: includes/php/admin_menu.php:213
+msgid "Time"
+msgstr "Tijd"
+
+#: includes/php/admin_menu.php:214
+msgid "Payment ID"
+msgstr "BetalingsID"
+
+#: includes/php/admin_menu.php:215
+msgid "Customer ID"
+msgstr "Klant ID"
+
+#: includes/php/admin_menu.php:216
+msgid "Order ID"
+msgstr "Order ID"
+
+#: includes/php/admin_menu.php:217 includes/php/admin_menu.php:795
+#: includes/php/amount.php:176 includes/php/bankchoice.php:63
+#: includes/php/paymentchoice.php:202
+msgid "Name"
+msgstr "Naam"
+
+#: includes/php/admin_menu.php:218 includes/php/admin_menu.php:797
+msgid "E-mail"
+msgstr "E-mail"
+
+#: includes/php/admin_menu.php:219 includes/php/admin_menu.php:721
+#: includes/php/admin_menu.php:799
+msgid "Amount"
+msgstr "Bedrag"
+
+#: includes/php/admin_menu.php:220 includes/php/admin_menu.php:801
+msgid "Description"
+msgstr "Omschrijving"
+
+#: includes/php/admin_menu.php:221 includes/php/admin_menu.php:722
+msgid "Status"
+msgstr "Status"
+
+#: includes/php/admin_menu.php:222 includes/php/admin_menu.php:805
+msgid "Frequency"
+msgstr "Frequentie"
+
+#: includes/php/admin_menu.php:223 includes/php/admin_menu.php:537
+#: includes/php/admin_menu.php:820
+msgid "Start date"
+msgstr "Start datum"
+
+#: includes/php/admin_menu.php:224
+msgid "Subscription ID"
+msgstr "Machtigingsnummer"
+
+#: includes/php/admin_menu.php:354 includes/php/admin_menu.php:478
+msgid "Import All Payments"
+msgstr "Importeer alle betalingen"
+
+#: includes/php/admin_menu.php:357 includes/php/admin_menu.php:483
+msgid "Import Subscriptions"
+msgstr "Importeer alle periodieke betalingen"
+
+#: includes/php/admin_menu.php:366
+#, php-format
+msgid "%s %s is imported succesfully"
+msgid_plural "%s %s are imported succesfully"
+msgstr[0] "%s %s is succesvol geïmporteerd"
+msgstr[1] "%s %s zijn succesvol geïmporteerd"
+
+#: includes/php/admin_menu.php:369
+#, php-format
+msgid "No %s are imported."
+msgstr "Geen %s zijn geïmporteerd."
+
+#: includes/php/admin_menu.php:385
+msgid "Payments made"
+msgstr "Gemaakte betalingen"
+
+#: includes/php/admin_menu.php:386 includes/php/admin_menu.php:446
+msgid "Mollie Settings"
+msgstr "Mollie instellen"
+
+#: includes/php/admin_menu.php:387
+msgid "Add payment mandate"
+msgstr "Voeg een betalingsmachtiging toe"
+
+#: includes/php/admin_menu.php:413 includes/php/table_shortcode.php:115
+msgid "Payments Table"
+msgstr "Betalingstabel"
+
+#: includes/php/admin_menu.php:417
+msgid "Below you can find all payments done."
+msgstr "Onderstaand zie alle gemaakte betalingen."
+
+#: includes/php/admin_menu.php:418
+msgid ""
+"All payments with a Subscription ID can be edited, that will edit the actual "
+"subscription on the Mollie side."
+msgstr "Alle betalingen met een machtigingsID kunnen worden bewerkt."
+
+#: includes/php/admin_menu.php:419
+msgid ""
+"When deleting a subscription the subscription will be cancelled at the "
+"Mollie side."
+msgstr ""
+"Als u een periodieke betaling verwijderd dan wordt hij ook gestopt bij "
+"Mollie."
+
+#: includes/php/admin_menu.php:438 includes/php/admin_menu.php:456
+msgid "Reset Api Key"
+msgstr "Wijzig api sleutel"
+
+#: includes/php/admin_menu.php:440
+msgid "Set Api Key"
+msgstr "Voer api sleutel in"
+
+#: includes/php/admin_menu.php:453
+msgid "Your Mollie Api Key is saved."
+msgstr "Uw mollie api sleutel is opgeslagen."
+
+#: includes/php/admin_menu.php:462
+msgid "Please enter a valid api key!"
+msgstr "Vult u alstublieft een valide api sleutel in!"
+
+#: includes/php/admin_menu.php:471
+msgid "Mollie Api Key:"
+msgstr "Mollie api sleutel:"
+
+#: includes/php/admin_menu.php:476
+msgid "Press the button to import all payments from Mollie"
+msgstr "Gebruik de knop om alle betalingen vanaf Mollie te importeren"
+
+#: includes/php/admin_menu.php:481
+msgid "Press the button to import all subscriptions from Mollie"
+msgstr ""
+"Gebruik de knop om all periodieke betalingen te importeren vanaf Mollie"
+
+#: includes/php/admin_menu.php:504
+msgid "Add a payment mandate."
+msgstr "Voeg een betalingsmachtiging toe."
+
+#: includes/php/admin_menu.php:505
+msgid "Fill in the form below to:"
+msgstr "Vul het onderstaande formulier in om:"
+
+#: includes/php/admin_menu.php:506
+msgid "Create a customer"
+msgstr "Een klant te maken"
+
+#: includes/php/admin_menu.php:507
+msgid "Create a payment mandate for that customer"
+msgstr "Een machtiging voor die klant te maken"
+
+#: includes/php/admin_menu.php:508
+msgid "Create a subscription for that customer (optional)"
+msgstr "Een periodieke betaling voor die klant te maken"
+
+#: includes/php/admin_menu.php:510
+msgid "Display Name:"
+msgstr "Weergave naam:"
+
+#: includes/php/admin_menu.php:512
+msgid "Bank account name:"
+msgstr "Naam van de bankrekening:"
+
+#: includes/php/admin_menu.php:514
+msgid "E-mail:"
+msgstr "E-mail:"
+
+#: includes/php/admin_menu.php:516
+msgid "Bank account IBAN:"
+msgstr "IBAN:"
+
+#: includes/php/admin_menu.php:518
+msgid "Signature date"
+msgstr "Machtigingsdatum"
+
+#: includes/php/admin_menu.php:521
+msgid ""
+"Fill in the fields below only if you want to add a subscription as well."
+msgstr ""
+"Vul onderstaande velden alleen in als u ook een periodieke betaling wilt "
+"instellen."
+
+#: includes/php/admin_menu.php:522
+msgid ""
+"If you add an existing order ID you can change an oneoff payment to a "
+"subscription."
+msgstr ""
+"Als u een bestaande order id invult dan kunt een eenmalige betaling omzetten "
+"naar een periodieke betaling."
+
+#: includes/php/admin_menu.php:523
+msgid "Amount:"
+msgstr "Bedrag:"
+
+#: includes/php/admin_menu.php:525
+msgid "Description:"
+msgstr "Omschrijving:"
+
+#: includes/php/admin_menu.php:527
+msgid "Interval:"
+msgstr "Interval:"
+
+#: includes/php/admin_menu.php:530
+msgid "Days"
+msgstr "Dagen"
+
+#: includes/php/admin_menu.php:531
+msgid "Weeks"
+msgstr "Weken"
+
+#: includes/php/admin_menu.php:532
+msgid "Months"
+msgstr "Maanden"
+
+#: includes/php/admin_menu.php:535
+msgid "Times:"
+msgstr "Aantal keer:"
+
+#: includes/php/admin_menu.php:539
+msgid "OrderID (Optional):"
+msgstr "Order id (optioneel):"
+
+#: includes/php/admin_menu.php:541
+msgid "Webhook URL:"
+msgstr "Webhook URL:"
+
+#: includes/php/admin_menu.php:544 includes/php/admin_menu.php:825
+msgid "Submit"
+msgstr "Verzend"
+
+#: includes/php/admin_menu.php:716
+msgid "Payments for customer"
+msgstr "Betalingen voor klant"
+
+#: includes/php/admin_menu.php:720
+msgid "Date"
+msgstr "Datum"
+
+#: includes/php/admin_menu.php:741
+msgid "Back to main page"
+msgstr "Terug naar vorige pagina"
+
+#: includes/php/admin_menu.php:790
+msgid "Edit values"
+msgstr "Bewerk periodieke betaling"
+
+#: includes/php/admin_menu.php:791
+msgid "The values below are retrieved from Mollie."
+msgstr "De onderstaande waardes zijn opgevraagd bij Mollie."
+
+#: includes/php/admin_menu.php:792
+msgid "All changed values will also be changed at the side of Mollie."
+msgstr "Alle gewijzigde waardes zullen ook bij Mollie worden geüpdated."
+
+#: includes/php/admin_menu.php:803
+msgid "Times"
+msgstr "Aantal keer"
+
+#: includes/php/admin_menu.php:882
+msgid "Confirm subscription cancellation"
+msgstr "Bevestig het stoppen van deze machtiging"
+
+#: includes/php/admin_menu.php:887
+#, php-format
+msgid "Are you sure to cancel the subscription with id '%s'?"
+msgstr "Weet u zeker dat u de machtiging met id \"%s\" wilt stoppen?"
+
+#: includes/php/admin_menu.php:890
+#, php-format
+msgid "Are you sure to cancel all %s subscriptions?"
+msgstr "Weet u zeker dat u alle %s periodieke betalingen wilt stoppen?"
+
+#: includes/php/admin_menu.php:893
+msgid "Yes"
+msgstr "Ja"
+
+#: includes/php/admin_menu.php:896
+msgid "No"
+msgstr "Nee"
+
+#: includes/php/admin_menu.php:911
+msgid "Items deleted scuccesfully from mollie and local database"
+msgstr "Alles is succesvol verwijderd van mollie en de lokale database"
+
+#: includes/php/admin_menu.php:913
+msgid "Items deleted scuccesfully from local database only."
+msgstr "Alles is succesvol verwijderd uit de lokale database, niet bij mollie."
+
+#: includes/php/amount.php:129
+msgid "Number format that the sender entered is invalid"
+msgstr ""
+
+#: includes/php/amount.php:135
+msgid "Number is smaller than minimum lim2it"
+msgstr ""
+
+#: includes/php/amount.php:136
+msgid "The number is smaller than the minimu2m allowed."
+msgstr ""
+
+#: includes/php/amount.php:140
+msgid "Number is larger than maximum l2mit"
+msgstr ""
+
+#: includes/php/amount.php:141
+msgid "The number is larger than the maxim2um allowed."
+msgstr ""
+
+#: includes/php/amount.php:151
+msgid "Generate a form-tag for a field where users can fill in their amount."
+msgstr ""
+"Genereer een form-tag voor een veld waar gebruikers een betalingsbedrag "
+"kunnen invullen."
+
+#: includes/php/amount.php:161 includes/php/amount.php:164
+#: includes/php/bankchoice.php:49 includes/php/bankchoice.php:52
+msgid "Field type"
+msgstr ""
+
+#: includes/php/amount.php:166
+msgid "Spinbox"
+msgstr ""
+
+#: includes/php/amount.php:167
+msgid "Slider"
+msgstr ""
+
+#: includes/php/amount.php:170 includes/php/bankchoice.php:54
+msgid "Required field"
+msgstr ""
+
+#: includes/php/amount.php:181
+msgid "Default value"
+msgstr ""
+
+#: includes/php/amount.php:183
+msgid "Use this text as the placeholder of the field"
+msgstr ""
+
+#: includes/php/amount.php:187 includes/php/amount.php:190
+msgid "Range"
+msgstr ""
+
+#: includes/php/amount.php:192
+msgid "Min"
+msgstr ""
+
+#: includes/php/amount.php:197
+msgid "Max"
+msgstr ""
+
+#: includes/php/amount.php:205 includes/php/bankchoice.php:88
+#: includes/php/paymentchoice.php:227
+msgid "Id attribute"
+msgstr ""
+
+#: includes/php/amount.php:210 includes/php/bankchoice.php:98
+#: includes/php/paymentchoice.php:232
+msgid "Class attribute"
+msgstr ""
+
+#: includes/php/amount.php:222 includes/php/bankchoice.php:113
+#: includes/php/paymentchoice.php:244
+msgid "Insert Tag"
+msgstr ""
+
+#: includes/php/amount.php:227 includes/php/bankchoice.php:119
+#: includes/php/paymentchoice.php:249
+#, php-format
+msgid ""
+"To use the value input through this field in a mail field, you need to "
+"insert the corresponding mail-tag (%s) into the field on the Mail tab."
+msgstr ""
+
+#: includes/php/bankchoice.php:38
+#, php-format
+msgid ""
+"Generate a dropdown menu to select a bank if chosen for iDeal as a "
+"paymentmethod. You can add extra options as well, these will be placed at "
+"the bottom of the list. You should use %s to only show the field when iDeal "
+"is chosen as a payment method"
+msgstr ""
+"Genereer een keuze menu om een bank te kiezen voor het geval iDeal de "
+"betaalmethode is. U kunt extra opties toevoegen, die worden onderaan de "
+"lijst geplaatst. U dient %s te gebruiken om het veld alleen te tonen als "
+"iDeal de betaalmethode is"
+
+#: includes/php/bankchoice.php:40
+msgid "https://wordpress.org/plugins/cf7-conditional-fields/"
+msgstr ""
+
+#: includes/php/bankchoice.php:40
+msgid "conditional fields"
+msgstr ""
+
+#: includes/php/bankchoice.php:72 includes/php/bankchoice.php:75
+#: includes/php/paymentchoice.php:207 includes/php/paymentchoice.php:210
+msgid "Options"
+msgstr ""
+
+#: includes/php/bankchoice.php:78 includes/php/paymentchoice.php:212
+msgid "One option per line."
+msgstr ""
+
+#: includes/php/bankchoice.php:80
+msgid "Insert a blank item as the first option"
+msgstr ""
+
+#: includes/php/paymentchoice.php:192
+msgid ""
+"Generate radio buttons to select a paymentmethod. You can add extra options "
+"as well, these will be placed at the bottom of the list. To set up a "
+"recurring payment the client has to do an initial payment. The form needs to "
+"have an 'name' and a 'email' field. Optionally you add a field with a namme "
+"containing the word 'frequency' containing numbers. That will be the "
+"frequency in months. Optionally you can add a date field with 'chargedate' "
+"in its name that will be the startdate. If you only have one recurring "
+"payment option, you do not have to add the 'Payment option field - "
+"recurring' just the 'payment option - first is sufficient.'"
+msgstr ""
+"Genereer radio keuzes om een betalingsmethode te selecteren. U kunt extra "
+"opties toevoegen, deze komen aan het einde van de lijst. Om een periodieke "
+"betaling in te stellen, dient de klant een eenmalige betaling te doen. In "
+"dat geval dient het formulier een 'naam' en een 'e-mail' veld te hebben. "
+"Optioneel kunt u een veld met de naam 'frequency' die getallen bevat "
+"toevoegen. Dat wordt de frequentie van de betaling in maanden. U kunt ook "
+"optioneel een datumveld met de naam 'chargedate' toevoegen. Als u slechts "
+"één periodiek betaalmiddel hebt hoeft u geen recurring betaalmethode toe te "
+"voegen."
+
+#: includes/php/paymentchoice.php:213
+msgid "Put a label first, a checkbox last"
+msgstr ""
+
+#: includes/php/paymentchoice.php:214
+msgid "Wrap each item with label element"
+msgstr ""
+
+#: includes/php/paymentchoice.php:220
+msgid "Payment type"
+msgstr "Betalingstype"
+
+#: includes/php/table_shortcode.php:23 includes/php/table_shortcode.php:161
+msgid "Delete payment"
+msgstr "Verwijder betaling"
+
+#: includes/php/table_shortcode.php:130
+msgid "Action"
+msgstr "Actie"
+
+#: includes/php/table_shortcode.php:164
+msgid "Edit payment"
+msgstr "Bewerk betaling"
+
+#: includes/php/table_shortcode.php:178
+msgid "Total"
+msgstr "Totaal"
+
+#: includes/php/table_shortcode.php:196
+msgid "No records found."
+msgstr "Geen betalingen gevonden."
+
+msgid "paid"
+msgstr "betaald"
+
+msgid "days"
+msgstr "dagen"
+
+msgid "weeks"
+msgstr "weken"
+
+msgid "months"
+msgstr "maanden"
+
+msgid "CustomerID"
+msgstr "Klant ID"
+
+msgid "Email"
+msgstr "E-mail"
+
+msgid "StartDate"
+msgstr "Start datum"
+
+msgid "SubscriptionID"
+msgstr "Machtiging ID"
+
+msgid "canceled"
+msgstr "geannuleerd"
+
+msgid "pending"
+msgstr "in afwachting"
+
+msgid "authorized"
+msgstr "toegestaan"
+
+msgid "expired"
+msgstr "verlopen"
+
+msgid "failed"
+msgstr "mislukt"
